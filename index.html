@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+    />
+
+    <!-- CSS Reset -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+
+    <!-- Milligram CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <section class="header">
+    <h1>National Viz Samples</h1>
+    
+    <a class="btn-bgstroke" href="./states.html">States Page</a>
+    <a class="btn-bgstroke" href="./county.html">County Page</a>
+  </section>
+  <body>
+    <div class="Container">
+      <div class="Chart">
+        <iframe
+          title="Excess Mortality 2020-2021"
+          aria-label="Map"
+          id="datawrapper-chart-5ab0H"
+          src="https://datawrapper.dwcdn.net/5ab0H/1/"
+          scrolling="no"
+          frameborder="0"
+          style="width: 0; min-width: 100% !important; border: none"
+          height="500"
+        ></iframe>
+        <script type="text/javascript">
+          !(function () {
+            "use strict";
+            window.addEventListener("message", function (e) {
+              if (void 0 !== e.data["datawrapper-height"]) {
+                var t = document.querySelectorAll("iframe");
+                for (var a in e.data["datawrapper-height"])
+                  for (var r = 0; r < t.length; r++) {
+                    if (t[r].contentWindow === e.source)
+                      t[r].style.height =
+                        e.data["datawrapper-height"][a] + "px";
+                  }
+              }
+            });
+          })();
+        </script>
+      </div>
+      <div class="Chart2">
+        <iframe
+          title="Average Underreporting Rates for Each State During the First Two Years of the Pandemic"
+          aria-label="Map"
+          id="datawrapper-chart-lApr0"
+          src="https://datawrapper.dwcdn.net/lApr0/4/"
+          scrolling="no"
+          frameborder="0"
+          style="width: 0; min-width: 100% !important; border: none"
+          height="525"
+        ></iframe>
+        <script type="text/javascript">
+          !(function () {
+            "use strict";
+            window.addEventListener("message", function (e) {
+              if (void 0 !== e.data["datawrapper-height"]) {
+                var t = document.querySelectorAll("iframe");
+                for (var a in e.data["datawrapper-height"])
+                  for (var r = 0; r < t.length; r++) {
+                    if (t[r].contentWindow === e.source)
+                      t[r].style.height =
+                        e.data["datawrapper-height"][a] + "px";
+                  }
+              }
+            });
+          })();
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
