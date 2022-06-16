@@ -13,6 +13,18 @@
     width: 51%;
     height: 51%;
   }
+.Container2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+  .Chart3{
+    width: 50%;
+    padding-left: 1em;
+    
+    
+  }
   .Buttons {
   }
   
